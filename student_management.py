@@ -1,5 +1,6 @@
 #creating the class Node.
 class Node:
+#add data that name,rollnumber,marks.
   def __init__(self,name,roll_number,marks):
     self.name=name
     self.marks=marks
