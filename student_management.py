@@ -8,4 +8,6 @@ class Node:
     self.next=None
 #creating the class studentslinkedlist.
 class studentslinkedlist:
+  #creating the head and tail inside the function.
+  def __init__(self):
     
