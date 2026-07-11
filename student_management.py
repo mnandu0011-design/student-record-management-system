@@ -11,4 +11,5 @@ class studentslinkedlist:
   #creating the head inside the function.
   def __init__(self):
     self.head=None
+    #add new student in record.
     
