@@ -12,4 +12,6 @@ class studentslinkedlist:
   def __init__(self):
     self.head=None
     #add new student in record.
+  def update_students(self,roll_number):
+    
     
