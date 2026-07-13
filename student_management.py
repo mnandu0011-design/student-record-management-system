@@ -12,6 +12,8 @@ class studentslinkedlist:
   def __init__(self):
     self.head=None
     #add new student in record.
-  def update_students(self,roll_number):
+  def add_students(self,name,roll_number,marks):
+    if self.head is None:
+      self.head=
     
     
