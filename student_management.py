@@ -13,6 +13,7 @@ class studentslinkedlist:
     self.head=None
     #add new student in record.
   def add_students(self,name,roll_number,marks):
+    newnode=Node(name,roll_number,marks)
     if self.head is None:
       self.head=
     
