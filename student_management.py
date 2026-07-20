@@ -18,8 +18,6 @@ class studentslinkedlist:
       self.head=newnode
       return
     new_node=self.head
-    self.head=newnode
-    self.head.next=new_node
-  
-    
+    for I in new_node:
+            
     
