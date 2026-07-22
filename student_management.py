@@ -21,6 +21,16 @@ class studentslinkedlist:
     while new_node:
       new_node=new_node.next
     new_node.next=newnode
+  #display the students ex:name of the student,roll number,how many marks got student.
+  def display(self):
+    temp=self.head
+    while temp:
+      print(f"name of the student {self.name}")
+      print(f"student roll number {self.roll_number}")
+      print(f"student marks {self.marks}")
+      temp=temp.next
+      
+
   
             
     
