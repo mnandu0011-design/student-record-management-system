@@ -29,6 +29,14 @@ class studentslinkedlist:
       print(f"student roll number {self.roll_number}")
       print(f"student marks {self.marks}")
       temp=temp.next
+  def search(self,roll_number):
+    temp=self.head
+    while temp:
+      if temp.roll_number==roll_number:
+        print(f"student name {self.name}")
+        print(f"student marks {self.marks}")
+        return
+      temp=temp.next
       
 
   
